@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpBCDLib", "CSharpBCDLib\CSharpBCDLib.csproj", "{6F12381B-B864-4FC9-94C5-9DF0ADD1F86B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpBCDLibDemo", "CSharpBCDLibDemo\CSharpBCDLibDemo.csproj", "{479A0D9A-E1DB-4C4B-94CB-FB69F2257F02}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{6F12381B-B864-4FC9-94C5-9DF0ADD1F86B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F12381B-B864-4FC9-94C5-9DF0ADD1F86B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F12381B-B864-4FC9-94C5-9DF0ADD1F86B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{479A0D9A-E1DB-4C4B-94CB-FB69F2257F02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{479A0D9A-E1DB-4C4B-94CB-FB69F2257F02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{479A0D9A-E1DB-4C4B-94CB-FB69F2257F02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{479A0D9A-E1DB-4C4B-94CB-FB69F2257F02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
