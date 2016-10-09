@@ -18,6 +18,7 @@ namespace CSharpBCDLib
 
         public BcdStore(string bcdPath = "")
         {
+            Log.Logger.Info("Initializing a BcdStore object.");
             ConnectionOptions connectionOptions = new ConnectionOptions();
             connectionOptions.Impersonation = ImpersonationLevel.Impersonate;
             connectionOptions.EnablePrivileges = true;

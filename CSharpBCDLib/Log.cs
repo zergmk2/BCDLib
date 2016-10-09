@@ -13,9 +13,14 @@ namespace CSharpBCDLib
         public static readonly ILog Logger;
         static Log()
         {
-            XmlConfigurator.Configure();
-            Logger = LogManager.GetLogger("CSharpBCDLib");
-        }
+            string assName = System.Reflection.Assembly.GetExecutingAssembly().GetName().Name;
+            string resXml = assName + ".log4net.xml";
+            using (System.IO.Stream stream = System.Reflection.Assembly.GetExecutingAssembly().GetManifestResourceStream(resXml))
+            {
+                log4net.Config.XmlConfigurator.Configure(stream);
+            }
 
+            Logger = LogManager.GetLogger("Logger");
+        }
     }
 }
